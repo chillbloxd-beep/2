@@ -29,15 +29,15 @@ export const OPEN_SITE_CONFIG = {
   CLOSE_LAUNCHER_TAB: true,
 
   // Earliest close attempt. Lower is faster, but 40 ms is already very fast.
-  MIN_CLOSE_DELAY_MS: 40,
+  MIN_CLOSE_DELAY_MS: 20,
 
   // Safety ceiling if the browser keeps data buffered.
-  MAX_CLOSE_WAIT_MS: 350,
+  MAX_CLOSE_WAIT_MS: 300,
 
   // A manually opened tab may not be allowed to close itself.
   // When blocked, replace it with a blank page instead.
   BLANK_IF_BROWSER_BLOCKS_CLOSE: true,
 
   // How long to wait for the Worker before showing a connection error.
-  CONNECTION_TIMEOUT_MS: 5000
+  CONNECTION_TIMEOUT_MS: 3000
 };
