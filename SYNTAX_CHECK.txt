@@ -1,0 +1,7 @@
+Package checks:
+- Static ES module structure
+- Editable config.js
+- Exact-target OPEN_URL commands
+- All-user selection from configured USERS map
+- WebSocket buffer-aware fast close
+- about:blank fallback when self-close is blocked
